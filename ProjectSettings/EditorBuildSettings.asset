@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: d7562d8a77364ed418231064d62c6932
+  - enabled: 1
+    path: Assets/Scene_start.unity
+    guid: 15d82ef0916dca94192b986f2b36bf53
+  - enabled: 0
+    path: Assets/Creator Kit - RPG/Scenes/BlankScene 1.unity
+    guid: 7b3ff333ce1048c458b8fff6276c33ec
+  - enabled: 1
+    path: Assets/Scenes/Test_Scene_1.unity
+    guid: 764048e2b5cc3b842989b86605ae29a4
+  - enabled: 0
+    path: Assets/Creator Kit - RPG/Scenes/SampleScene.unity
+    guid: 2ea7383a0a8af431080e0aa251ee7115
+  - enabled: 1
+    path: Assets/Scenes/Scene_chinese.unity
+    guid: abcf0d3c3ca338d479d1f1dfdf46a127
+  m_configObjects: {}

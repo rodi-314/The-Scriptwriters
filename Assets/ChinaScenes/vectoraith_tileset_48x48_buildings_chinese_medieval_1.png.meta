@@ -1,0 +1,999 @@
+fileFormatVersion: 2
+guid: 5e3bb3ff75cec824d8324919bac48744
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 485
+        width: 183
+        height: 224
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1b5da7fc65be840a90c7fba23d6c68
+      internalID: 901033731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 720
+        width: 42
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc3820a6079b874db1ef5b66d7f6036
+      internalID: -1373021300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 721
+        width: 90
+        height: 42
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ac1e38e99bbd74a9285d03d4b77501
+      internalID: -476913272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 726
+        width: 90
+        height: 42
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2026ff4fd2dbe43b68c8965cbd4fe2
+      internalID: 768245446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 672
+        width: 42
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d787550133eee9f408f2db8db91a0222
+      internalID: 631359585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_5
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 722
+        width: 48
+        height: 46
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea2973dff835c94c9342cea2c655a79
+      internalID: 2028228580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_6
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 436
+        width: 334
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 204}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c7f34be1a08b14caf998d97368bc0c
+      internalID: 268502910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 636
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c2fa941d640a34194893bd5652fe06
+      internalID: -1984439739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_8
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 673
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ed7a29b2d5f0346accf624fbc54b42
+      internalID: 184750063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 51
+        width: 232
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8634750af54b8742aa75ff437f7c4f1
+      internalID: -217479868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 488
+        width: 32
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 57}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9c3a98102d8cd44a4011e6594d47c0
+      internalID: -124702543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_11
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 438
+        width: 33
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 107}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8634df689e331e149b1e65955ba1a09b
+      internalID: 547421873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 579
+        width: 90
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4282767156950445a06abc95694a3fe
+      internalID: -1725552989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 436
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760474f3cfbf92c469318d1d1979e746
+      internalID: 918806584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_14
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 299
+        width: 31
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 111}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04a7e8e5ff200c4486aec6922823cdf
+      internalID: -888209328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_15
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 297
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 49, w: 101}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf62fb0b30162e499f1a6d3645bfa72
+      internalID: 240443679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 287
+        width: 143
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1101807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790db66092f54804c96b2565137c1c65
+      internalID: -446251265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_17
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 387
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28880291546ef3c428d657b3de50407c
+      internalID: -677832848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_18
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 385
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abc4d0d8b1e45c4aa3171a191330e76
+      internalID: -958969828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_19
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 387
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04003416b0bd26b4fbf6763f00129597
+      internalID: 1329207856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_20
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 385
+        width: 92
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e274c59c059185418287f671fe2432d
+      internalID: 1378424590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_21
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 437
+        width: 45
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c748b2272b7815546bbda97951baf5ec
+      internalID: -1476866043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_22
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 292
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd17782e286cb8d4ebd6f845b07f0937
+      internalID: -1427547581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_23
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 241
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b86f747b39da064786df2daaaa1d237
+      internalID: -1213246056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_24
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 307
+        width: 39
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d89e4f2d1cdbf4bbccd33bccfef1d7
+      internalID: -514287961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_25
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 349
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5670db1c393fbf44a90a31315e29e754
+      internalID: 1626232629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_26
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 301
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a90467d043978147b5820331299a8f9
+      internalID: 1488190173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_27
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 103
+        width: 44
+        height: 168
+      alignment: 9
+      pivot: {x: 0.08833764, y: 0.09668573}
+      border: {x: 0, y: 0, z: 34, w: 145}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -83}
+        - {x: -12, y: -70}
+        - {x: -22, y: -74}
+        - {x: -22, y: -70}
+        - {x: -22, y: -84}
+        - {x: -10, y: -84}
+        - {x: -13, y: -83}
+        - {x: -10, y: -83}
+        - {x: -9, y: -84}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11ef50a07ddeb34db82eb50dcb4f8f1
+      internalID: 2046483775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3384e84b5c84c241a0e12b34d602b99
+      internalID: -1603654122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_29
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6644b66ae23e51b40a27b5977c08afc2
+      internalID: -1959167001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3625e569c3b1ba34bb82edfd50be3cd0
+      internalID: 912756081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea2bb33a8dedbd4abaf799e962c247c
+      internalID: -630336392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_32
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b969aa3ccbbd74885ca91442b27cdc
+      internalID: 2032420569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_33
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 332
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845b6015aa7ce0c4dafcf100459b8801
+      internalID: -1597873761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_34
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 193
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e24428664b4734cb4e41e1a1fc470c
+      internalID: 1671323415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_35
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 145
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a656ec4a7685146b1907e6962b4dfa
+      internalID: 2086262979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_36
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 47
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bdd6363ebc38a408eab7b7819e9196
+      internalID: -103907546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_37
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 0
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3d8c52d3ec6984497ecc09630cc970
+      internalID: -146674045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_48x48_buildings_chinese_medieval_1_38
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 103
+        width: 43
+        height: 170
+      alignment: 9
+      pivot: {x: 0.93684, y: 0.04223691}
+      border: {x: 40, y: 0, z: 0, w: 158}
+      outline: []
+      physicsShape:
+      - - {x: 9.5, y: -64}
+        - {x: 11.5, y: -74}
+        - {x: 8.5, y: -85}
+        - {x: 21.5, y: -84}
+        - {x: 21.5, y: -63}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb403e3c948e65b4db3058d44898d7aa
+      internalID: 1922883143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_0: 901033731
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_1: -1373021300
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_10: -124702543
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_11: 547421873
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_12: -1725552989
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_13: 918806584
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_14: -888209328
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_15: 240443679
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_16: -446251265
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_17: -677832848
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_18: -958969828
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_19: 1329207856
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_2: -476913272
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_20: 1378424590
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_21: -1476866043
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_22: -1427547581
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_23: -1213246056
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_24: -514287961
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_25: 1626232629
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_26: 1488190173
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_27: 2046483775
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_28: -1603654122
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_29: -1959167001
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_3: 768245446
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_30: 912756081
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_31: -630336392
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_32: 2032420569
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_33: -1597873761
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_34: 1671323415
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_35: 2086262979
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_36: -103907546
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_37: -146674045
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_38: 1922883143
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_4: 631359585
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_5: 2028228580
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_6: 268502910
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_7: -1984439739
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_8: 184750063
+      vectoraith_tileset_48x48_buildings_chinese_medieval_1_9: -217479868
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
