@@ -63,7 +63,6 @@ namespace RPGM.Gameplay
             {
                 SaveData data = saveSystem.LoadGame();
                 model.LoadFromSaveData(data);
-                Debug.Log("Game loaded.");
             }
             else
             {

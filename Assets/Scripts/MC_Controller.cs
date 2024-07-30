@@ -111,13 +111,11 @@ public class MC_Controller : MonoBehaviour
         }
 
         currentPower = Mathf.Clamp(currentPower + amount, 0, maxPower);
-
-        // Assuming UIPowerBar is a singleton instance
         UIPowerBar.instance.SetValue(currentPower / (float)maxPower);
     }
+
     public void Teleport(Vector3 position)
     {
         transform.position = position;
-       
     }
 }

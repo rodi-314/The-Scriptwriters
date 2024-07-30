@@ -12,12 +12,15 @@ namespace RPGM.Gameplay
         AudioSource audioSourceA, audioSourceB;
         float audioSourceAVolumeVelocity, audioSourceBVolumeVelocity;
 
-        public void CrossFade(AudioClip audioClip)
+        public void CrossFade(AudioClip newClip)
         {
+            if (audioSourceA.clip == newClip || audioSourceB.clip == newClip)
+                return;
+
             var t = audioSourceA;
             audioSourceA = audioSourceB;
             audioSourceB = t;
-            audioSourceA.clip = audioClip;
+            audioSourceA.clip = newClip;
             audioSourceA.Play();
         }
 

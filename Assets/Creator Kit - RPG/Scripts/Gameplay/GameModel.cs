@@ -98,15 +98,9 @@ namespace RPGM.Gameplay
                 currentScene = SceneManager.GetActiveScene().buildIndex,
                 playerPosition = MC.transform.position,
                 inventory = new Dictionary<string, int>(inventory),
-                inventorySprites = new Dictionary<string, string>(),
                 storyItems = new List<string>(storyItems),
                 conversations = new Dictionary<string, List<string>>()
             };
-
-            foreach (var kvp in inventorySprites)
-            {
-                saveData.inventorySprites[kvp.Key] = kvp.Value.name; // Assuming sprite name is enough to load the sprite
-            }
 
             foreach (var kvp in conversations)
             {
@@ -155,23 +149,9 @@ namespace RPGM.Gameplay
                 foreach (var item in saveData.inventory)
                 {
                     // Reconstruct inventory items
-                    var sprite = Resources.Load<Sprite>(item.Key); // Load the sprite from the path
-                    var newItem = new InventoryItem { name = item.Key, count = item.Value, sprite = sprite };
+                    var newItem = new InventoryItem { name = item.Key, count = item.Value, sprite = GetInventorySprite(item.Key) };
                     AddInventoryItem(newItem);
                     Debug.Log("Loaded Inventory Item: " + item.Key + ", Count: " + item.Value);
-                }
-
-                foreach (var kvp in saveData.inventorySprites)
-                {
-                    var sprite = Resources.Load<Sprite>(kvp.Value);
-                    if (sprite != null)
-                    {
-                        inventorySprites[kvp.Key] = sprite;
-                    }
-                    else
-                    {
-                        Debug.LogWarning($"Sprite for {kvp.Key} could not be loaded from {kvp.Value}");
-                    }
                 }
             }
             else

@@ -61,15 +61,12 @@ public class MapController : MonoBehaviour
     {
         float scrollData = Input.GetAxis("Mouse ScrollWheel");
         if (scrollData != 0.0f)
-        {
-            // Calculate the new scale based on scroll input
+        {            
             Vector3 newScale = mapImageRectTransform.localScale * (1 + scrollData * zoomSpeed);
-
-            // Clamp the new scale to the min and max zoom levels
+           
             newScale.x = Mathf.Clamp(newScale.x, initialScale.x * minZoom, initialScale.x * maxZoom);
             newScale.y = Mathf.Clamp(newScale.y, initialScale.y * minZoom, initialScale.y * maxZoom);
 
-            // Apply the new scale
             mapImageRectTransform.localScale = newScale;
         }
     }

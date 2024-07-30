@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: teleport
     originalName: 
-    pivot: {x: 0.52380955, y: 0}
+    pivot: {x: 0.52380955, y: -0.10526316}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -155,7 +155,7 @@ ScriptedImporter:
       additiveSortOrder: 0
       cellRect:
         x: 13
-        y: 0
+        y: 4
         width: 21
         height: 38
       spriteId: 37c153583d9174340a328872de5c20d9
