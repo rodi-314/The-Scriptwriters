@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using RPGM.Core;
 using RPGM.UI;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace RPGM.Gameplay
@@ -32,6 +33,7 @@ namespace RPGM.Gameplay
 
         public GameObject[] enableOnQuestStart;
         public GameObject[] spawnOnQuestStart;
+        public GameObject[] enableOnQuestEnd;
         public ItemRequirement[] requiredItems;
         public GameObject[] spawnOnQuestComplete;
         public InventoryItem[] rewardItems;
@@ -54,6 +56,10 @@ namespace RPGM.Gameplay
             {
                 if (enableOnQuestStart != null)
                     foreach (var i in enableOnQuestStart)
+                        if (i != null)
+                            i.SetActive(false);
+                if (enableOnQuestEnd != null)
+                    foreach (var i in enableOnQuestEnd)
                         if (i != null)
                             i.SetActive(false);
 
@@ -138,6 +144,27 @@ namespace RPGM.Gameplay
 
         public void OnFinishQuest()
         {
+            // Activate objects that should be enabled at the end of the quest
+            if (enableOnQuestEnd != null)
+            {
+                foreach (var i in enableOnQuestEnd)
+                {
+                    if (i != null)
+                        i.SetActive(true);
+                }
+            }
+
+            // If objects were enabled at the start of the quest, deactivate them now
+            if (enableOnQuestStart != null)
+            {
+                foreach (var i in enableOnQuestStart)
+                {
+                    if (i != null)
+                        i.SetActive(false);  // Deactivate the objects
+                }
+            }
+
+            // Clean up spawned objects if required
             if (destroySpawnsOnQuestComplete)
             {
                 foreach (var i in cleanup)
@@ -146,13 +173,16 @@ namespace RPGM.Gameplay
                 }
             }
 
+            // Spawn objects at the end of the quest
             foreach (var i in spawnOnQuestComplete)
             {
                 var clone = GameObject.Instantiate(i);
                 clone.SetActive(true);
             }
+
             isFinished = true;
         }
+
 
     }
 }

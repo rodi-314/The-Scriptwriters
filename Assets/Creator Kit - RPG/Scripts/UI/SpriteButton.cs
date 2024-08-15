@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -10,7 +12,6 @@ namespace RPGM.UI
     {
         public SpriteRenderer spriteRenderer;
         public TextMeshPro textMeshPro;
-
         public Vector2 Size => spriteRenderer.size;
         public event System.Action onClickEvent;
 
@@ -46,5 +47,7 @@ namespace RPGM.UI
             spriteRenderer = GetComponent<SpriteRenderer>();
             textMeshPro = GetComponentInChildren<TextMeshPro>();
         }
+
+        
     }
 }

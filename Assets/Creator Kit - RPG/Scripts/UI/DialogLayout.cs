@@ -11,7 +11,7 @@ namespace RPGM.UI
     [ExecuteInEditMode]
     public class DialogLayout : MonoBehaviour
     {
-        public float padding = 0.25f;
+        public float padding = 0.5f;
         public SpriteRenderer iconRenderer;
         public SpriteRenderer spriteRenderer;
         public TextMeshPro textMeshPro;
